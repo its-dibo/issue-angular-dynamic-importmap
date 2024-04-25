@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+// @ts-ignore
+import x from '#mod'
+
+console.log({x})
 
 @Component({
   selector: 'app-root',
@@ -11,4 +15,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'issue-dynamic-importmap';
+  
 }
